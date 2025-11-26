@@ -1,0 +1,10 @@
+Dataset: linux_auth_log-anomalies (Kaggle)
+Contains: Linux authentication logs
+Size: 500,000 rows
+Sampled: 80,000 rows for training
+Classes:
+0 = normal
+1 = privilege_escalation
+2 = port_scan
+3 = geo_anomaly
+4 = brute_force
