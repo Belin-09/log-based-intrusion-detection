@@ -31,7 +31,7 @@ Dataset was sampled to 80,000 rows and trained in Google Colab.
 
 3. Run all cells to train or test the model.
 
-Example Prediction
+##Example Prediction
 sample_logs = [
     "2024-10-11 195.241.151.7 Failed login via sudo",
     "2025-02-02 10.0.0.10 Successful ssh login",
@@ -41,7 +41,7 @@ sample_logs = [
 sample_vec = tfidf.transform(sample_logs)
 rf.predict(sample_vec)
 
-Model Accuracy
+##Model Accuracy
 The Random Forest classifier achieved 100% accuracy on test data.
 
   
