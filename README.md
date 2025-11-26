@@ -1,4 +1,4 @@
-# log-based-intrusion-detection
+# Log-based-intrusion-detection
 Machine Learning based Log Intrusion Detection System using NLP + Random Forest
 
 This project detects anomalies in Linux authentication logs using  
